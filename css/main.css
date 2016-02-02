@@ -8,14 +8,6 @@
 
 html, body { height: 100%; }
 
-body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 300;
-  background-color: #fdfdfd;
-}
-
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
 a         { color: #2a7ae2; text-decoration: none; }
@@ -90,19 +82,19 @@ a:visited { color: #205caa; }
 .site-footer .column { float: left; margin-bottom: 15px; }
 
 .footer-col-1 {
-  width: 270px; /*fallback*/
-  width: -webkit-calc(35% - 10px);
-  width: -moz-calc(35% - 10px);
-  width: -o-calc(35% - 10px);
-  width: calc(35% - 10px);
+  width: 170px; /*fallback*/
+  width: -webkit-calc(25% - 10px);
+  width: -moz-calc(25% - 10px);
+  width: -o-calc(25% - 10px);
+  width: calc(25% - 10px);
   margin-right: 10px
 }
 .footer-col-2 {
-  width: 175px; /*fallback*/
-  width: -webkit-calc(23.125% - 10px);
-  width: -moz-calc(23.125% - 10px);
-  width: -o-calc(23.125% - 10px);
-  width: calc(23.125% - 10px);
+  width: 275px; /*fallback*/
+  width: -webkit-calc(33.125% - 10px);
+  width: -moz-calc(33.125% - 10px);
+  width: -o-calc(33.125% - 10px);
+  width: calc(33.125% - 10px);
   margin-right: 10px
 }
 .footer-col-3 {

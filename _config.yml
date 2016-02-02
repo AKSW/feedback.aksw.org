@@ -1,11 +1,22 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: feedback.aksw.org
+contact_name: "Natanael Arndt"
+contact_uri: http://aksw.org/NatanelArndt
+contact_email: arndt@informatik.uni-leipzig.de
+description: "The *Structured Feedback* protocol as an interactive addition to the *Web of Data*.
+It offers support for users to contribute to the evolution of web resources, by providing structured data artifacts as *patches for web resources*, as well as *simple plain text comments*.
+Based on this approach it enables quality assessment and web data cleansing processes by the crowd in an ad-hoc fashion."
 baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  AKSW
+github_repositories:  akswgroup
+github_repositories:
+  - name: AnnotationClient
+    title: AKSW/AnnotationClient
+  - name: ResourceHosting
+    title: AKSW/ResourceHosting
+  - name: SemanticPingback-Server
+    title: AKSW/SemanticPingback-Server
 
 # Build settings
 markdown: kramdown

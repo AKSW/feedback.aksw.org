@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
@@ -15,5 +15,9 @@
 
     {% include footer.html %}
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="{{ "/scripts/jquery-2.2.0.min.js" | prepend: site.baseurl }}"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="{{ "/scripts/bootstrap.min.js" | prepend: site.baseurl }}"></script>
     </body>
 </html>
