@@ -8,8 +8,10 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
     {% if page.pingback_to %}<link rel="pingback:to" href="{{ page.pingback_to }}" />{% else %}
     {% if site.pingback_to %}<link rel="pingback:to" href="{{ site.pingback_to }}" />{% endif %}{% endif %}
-    {% if page.pingback_service %}<link rel="pingback:service" href="{{ page.pingback_service }}" />{% else %}
-    {% if site.pingback_service %}<link rel="pingback:service" href="{{ site.pingback_service }}" />{% endif %}{% endif %}
+    {% if page.pingback_service %}<link rel="pingback:service" href="{{ page.pingback_service }}" />
+    <link rel="pingback" href="{{ site.pingback_service }}" />{% else %}
+    {% if site.pingback_service %}<link rel="pingback:service" href="{{ site.pingback_service }}" />
+    <link rel="pingback" href="{{ site.pingback_service }}" />{% endif %}{% endif %}
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />

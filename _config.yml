@@ -8,7 +8,8 @@ It offers support for users to contribute to the evolution of web resources, by 
 Based on this approach it enables quality assessment and web data cleansing processes by the crowd in an ad-hoc fashion."
 baseurl: ""
 url: "http://feedback.aksw.org"
-pingback_to: "http://pingback.feedback.aksw.org"
+pingback_to: "http://pingback.feedback.aksw.org/"
+pingback_service: "http://pingback.feedback.aksw.org/"
 github_username:  AKSW
 github_repositories:  akswgroup
 github_repositories:
