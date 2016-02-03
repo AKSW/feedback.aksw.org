@@ -7,7 +7,8 @@ description: "The *Structured Feedback* protocol as an interactive addition to t
 It offers support for users to contribute to the evolution of web resources, by providing structured data artifacts as *patches for web resources*, as well as *simple plain text comments*.
 Based on this approach it enables quality assessment and web data cleansing processes by the crowd in an ad-hoc fashion."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://feedback.aksw.org"
+pingback_to: "http://pingback.feedback.aksw.org"
 github_username:  AKSW
 github_repositories:  akswgroup
 github_repositories:
