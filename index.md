@@ -17,4 +17,8 @@ For the present page, no RDF is provided, this means the *AnnotationClient* is i
 <!-- On [http://aksw.org/](http://aksw.org/) you should also be able to create patches. -->
 
 Pressing the “Submit” button will create an RDF resource representing your comment at `http://resource.feedback.aksw.org/`.
-After the creation of the resource a [Semantic Pingback](https://aksw.github.io/SemanticPingback/) ping is sent to [http://pingback.feedback.aksw.org/](http://pingback.feedback.aksw.org/).
+After the creation of the resource a [Semantic Pingback](https://aksw.github.io/SemanticPingback/) ping is sent to [http://pingback.feedback.aksw.org/](http://pingback.feedback.aksw.org/), which is advertised by this page in the head.
+
+    <head xmlns:pingback="http://purl.org/net/pingback/">
+        <link rel="pingback:to" href="http://pingback.feedback.aksw.org" />
+    </head>
