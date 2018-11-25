@@ -13,16 +13,16 @@ pingback_service: "https://pingback.feedback.aksw.org/"
 github_username:  AKSW
 github_repositories:  akswgroup
 github_repositories:
-  - name: AnnotationClient (JavaScript)
-    title: AKSW/AnnotationClient
-  - name: ResourceHosting (Python3)
-    title: AKSW/ResourceHosting
-  - name: SemanticPingback-Server (PHP)
-    title: AKSW/SemanticPingback-Server
-  - name: SemanticPingback-Server (Python3)
-    title: AKSW/SemanticPingback-Server-Py
-  - name: SemanticPingback-Library (Python3)
-    title: AKSW/SemanticPingbackPy
+  - name: AnnotationClient
+    title: AKSW/AnnotationClient (JavaScript)
+  - name: ResourceHosting
+    title: AKSW/ResourceHosting (Python3)
+  - name: SemanticPingback-Server
+    title: AKSW/SemanticPingback-Server (PHP)
+  - name: SemanticPingback-Server-Py
+    title: AKSW/SemanticPingback-Server-Py (Python3)
+  - name: SemanticPingbackPy
+    title: AKSW/SemanticPingback-Library (Python3)
 
 # Build settings
 markdown: kramdown
