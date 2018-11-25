@@ -22,3 +22,8 @@ After the creation of the resource a [Semantic Pingback](https://aksw.github.io/
     <head xmlns:pingback="http://purl.org/net/pingback/">
         <link rel="pingback:to" href="http://pingback.feedback.aksw.org" />
     </head>
+
+## Read more about Structured Feedback
+If you want to read more about Structured Feedback check out our paper at LDOW2016:
+
+[*Structured Feedback: A Distributed Protocol for Feedback and Patches on the Web of Data*](http://ceur-ws.org/Vol-1593/article-02.pdf) by Natanael Arndt, Kurt Junghanns, Roy Meissner, Philipp Frischmuth, Norman Radtke, Marvin Frommhold, and Michael Martin in Proceedings of the Workshop on Linked Data on the Web (LDOW 2016) co-located with the 25th International World Wide Web Conference (WWW 2016)
