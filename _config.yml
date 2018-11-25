@@ -1,24 +1,28 @@
 # Site settings
 title: feedback.aksw.org
 contact_name: "Natanael Arndt"
-contact_uri: http://aksw.org/NatanelArndt
+contact_uri: http://aksw.org/NatanaelArndt
 contact_email: arndt@informatik.uni-leipzig.de
 description: "The *Structured Feedback* protocol as an interactive addition to the *Web of Data*.
 It offers support for users to contribute to the evolution of web resources, by providing structured data artifacts as *patches for web resources*, as well as *simple plain text comments*.
 Based on this approach it enables quality assessment and web data cleansing processes by the crowd in an ad-hoc fashion."
 baseurl: ""
-url: "http://feedback.aksw.org"
-pingback_to: "http://pingback.feedback.aksw.org/"
-pingback_service: "http://pingback.feedback.aksw.org/"
+url: "https://feedback.aksw.org"
+pingback_to: "https://pingback.feedback.aksw.org/"
+pingback_service: "https://pingback.feedback.aksw.org/"
 github_username:  AKSW
 github_repositories:  akswgroup
 github_repositories:
-  - name: AnnotationClient
+  - name: AnnotationClient (JavaScript)
     title: AKSW/AnnotationClient
-  - name: ResourceHosting
+  - name: ResourceHosting (Python3)
     title: AKSW/ResourceHosting
-  - name: SemanticPingback-Server
+  - name: SemanticPingback-Server (PHP)
     title: AKSW/SemanticPingback-Server
+  - name: SemanticPingback-Server (Python3)
+    title: AKSW/SemanticPingback-Server-Py
+  - name: SemanticPingback-Library (Python3)
+    title: AKSW/SemanticPingbackPy
 
 # Build settings
 markdown: kramdown
